@@ -12,11 +12,12 @@ This is a simple Python websocket server that lets you start SuperTuxKart server
 - See `requirements.txt` for required Python packages
 
 ## Installation
-1. Install the requirements:
+1. Create a virtual environment: python3 -m venv venv, and activate it afterwards: source venv/bin/activate
+2. Install the requirements:
    ```bash
    pip install -r requirements.txt
    ```
-2. Make sure you have a valid `config.json` with the correct paths and settings. (Use config.json.example as an example)
+3. Make sure you have a valid `config.json` with the correct paths and settings. (Use config.json.example as an example)
 
 ## Usage
 Start the server with:
